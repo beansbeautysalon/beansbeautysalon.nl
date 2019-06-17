@@ -1,0 +1,9 @@
+// Created by iWeb 3.0.4 local-build-20160214
+
+setTransparentGifURL('Media/transparent.gif');function applyEffects()
+{var registry=IWCreateEffectRegistry();registry.registerEffects({stroke_0:new IWPhotoFrame([IWCreateImage('NieuwsbriefJan2_files/FormalShadow_01.png'),IWCreateImage('NieuwsbriefJan2_files/FormalShadow_02.png'),IWCreateImage('NieuwsbriefJan2_files/FormalShadow_03.png'),IWCreateImage('NieuwsbriefJan2_files/FormalShadow_06.png'),IWCreateImage('NieuwsbriefJan2_files/FormalShadow_12.png'),IWCreateImage('NieuwsbriefJan2_files/FormalShadow_11.png'),IWCreateImage('NieuwsbriefJan2_files/FormalShadow_10.png'),IWCreateImage('NieuwsbriefJan2_files/FormalShadow_04.png')],null,2,1.000000,1.000000,5.000000,1.000000,4.000000,17.000000,17.000000,17.000000,36.000000,4.000000,837.000000,4.000000,837.000000,null,null,null,0.100000),stroke_1:new IWPhotoFrame([IWCreateImage('NieuwsbriefJan2_files/baby_ul.png'),IWCreateImage('NieuwsbriefJan2_files/baby_top.png'),IWCreateImage('NieuwsbriefJan2_files/baby_ur.png'),IWCreateImage('NieuwsbriefJan2_files/baby_right.png'),IWCreateImage('NieuwsbriefJan2_files/baby_lr.png'),IWCreateImage('NieuwsbriefJan2_files/baby_bottom.png'),IWCreateImage('NieuwsbriefJan2_files/baby_ll.png'),IWCreateImage('NieuwsbriefJan2_files/baby_left.png')],null,1,1.000000,90.000000,22.000000,90.000000,8.000000,103.000000,33.000000,103.000000,30.000000,23.000000,22.000000,23.000000,22.000000,null,null,null,0.300000)});registry.applyEffects();}
+function hostedOnDM()
+{return false;}
+function onPageLoad()
+{loadMozillaCSS('NieuwsbriefJan2_files/NieuwsbriefJan2Moz.css')
+adjustLineHeightIfTooBig('id1');adjustFontSizeIfTooBig('id1');adjustLineHeightIfTooBig('id2');adjustFontSizeIfTooBig('id2');adjustLineHeightIfTooBig('id3');adjustFontSizeIfTooBig('id3');adjustLineHeightIfTooBig('id4');adjustFontSizeIfTooBig('id4');adjustLineHeightIfTooBig('id5');adjustFontSizeIfTooBig('id5');fixAllIEPNGs('Media/transparent.gif');applyEffects()}
